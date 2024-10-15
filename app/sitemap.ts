@@ -31,6 +31,11 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         process.env.NEXT_PUBLIC_BASE_URL || process.env.NEXT_PUBLIC_LOCAL_URL
       }/products`,
     },
+    {
+      url: `${
+        process.env.NEXT_PUBLIC_BASE_URL || process.env.NEXT_PUBLIC_LOCAL_URL
+      }/projects`,
+    },
     // ...postEntries,
     {
       url: `${
