@@ -1,19 +1,19 @@
 import { MetadataRoute } from "next";
-import { productsArray } from "./(pages)/products/productContact";
+// import { productsArray } from "./(pages)/products/productContact";
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const params = productsArray.map((product) => ({
-    params: { productName: product.name.replace(" ", "-").toLowerCase() },
-  }));
+  // const params = productsArray.map((product) => ({
+  //   params: { productName: product.name.replace(" ", "-").toLowerCase() },
+  // }));
 
   //   console.log(params);
-  const postEntries: MetadataRoute.Sitemap = params.map(
-    ({ params: { productName } }) => ({
-      url: `${
-        process.env.NEXT_PUBLIC_BASE_URL || process.env.NEXT_PUBLIC_LOCAL_URL
-      }/products/${productName}`,
-    })
-  );
+  // const postEntries: MetadataRoute.Sitemap = params.map(
+  //   ({ params: { productName } }) => ({
+  //     url: `${
+  //       process.env.NEXT_PUBLIC_BASE_URL || process.env.NEXT_PUBLIC_LOCAL_URL
+  //     }/products/${productName}`,
+  //   })
+  // );
 
   return [
     {
@@ -31,12 +31,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         process.env.NEXT_PUBLIC_BASE_URL || process.env.NEXT_PUBLIC_LOCAL_URL
       }/products`,
     },
-    ...postEntries,
-    {
-      url: `${
-        process.env.NEXT_PUBLIC_BASE_URL || process.env.NEXT_PUBLIC_LOCAL_URL
-      }/news-events`,
-    },
+    // ...postEntries,
     {
       url: `${
         process.env.NEXT_PUBLIC_BASE_URL || process.env.NEXT_PUBLIC_LOCAL_URL

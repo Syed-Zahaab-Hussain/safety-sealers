@@ -1,13 +1,13 @@
 export const productsArray = [
   {
-    name: "Waterproofing Membrane",
+    name: "Water Proofing Membrane",
     description:
-      "Chemseal - 105N is a cement based, fiber-reinforced, Polymer modified, 2-component, multi-purpose waterproofing Compound. Chemseal - 105 N combines a crystallization action and pore blocking effect with excellent waterproofing ability of special polymers, additives, and properly graded aggregates.",
+      "",
     image:
       "https://pictures-nigeria.jijistatic.net/78387076_NzY4LTEwMjQtYTk5YTFhOTE3OQ.webp",
     properties: [
       {
-        name: "Chemaflex276",
+        name: "JointSealant",
         explanations: [
           "Insitu concrete",
           "Precast concrete",
@@ -25,7 +25,7 @@ export const productsArray = [
     ],
   },
   {
-    name: "Product 2",
+    name: "Water Proofing Chemicals & Sealants",
     description: "lorem ipsum daksldfjaksljfaujn2u33298nd",
 
     image: "https://m.media-amazon.com/images/I/718p80gVGfL._AC_SL1500_.jpg",
@@ -43,7 +43,7 @@ export const productsArray = [
     ],
   },
   {
-    name: "Product 3",
+    name: "Joint Sealants & Fillers",
     description: "lorem ipsum daksldfjaksljfaujn2u33298nd",
 
     image:
@@ -62,7 +62,7 @@ export const productsArray = [
     ],
   },
   {
-    name: "Product 4",
+    name: "Water Tanks repairing Chemcials & Mortars",
     description: "lorem ipsum daksldfjaksljfaujn2u33298nd",
 
     image:
@@ -81,7 +81,45 @@ export const productsArray = [
     ],
   },
   {
-    name: "Product 5",
+    name: "Insulation Boards",
+    description: "lorem ipsum daksldfjaksljfaujn2u33298nd",
+
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpZpSTZq082bibpeKX4BuGfuaOV-DfB7UugA&s",
+    properties: [
+      {
+        name: "Sealant",
+        explanations: [
+          "lorem ipsum dolor sit amet, consectetur adip",
+          "lorem ipsum dolor sit amet, consectetur adip",
+          "lorem ipsum dolor sit amet, consectetur adip",
+          "lorem ipsum dolor sit amet, consectetur adip",
+          "lorem ipsum dolor sit amet, consectetur adip",
+        ],
+      },
+    ],
+  },
+  {
+    name: "Concrete Admixtures",
+    description: "lorem ipsum daksldfjaksljfaujn2u33298nd",
+
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpZpSTZq082bibpeKX4BuGfuaOV-DfB7UugA&s",
+    properties: [
+      {
+        name: "Sealant",
+        explanations: [
+          "lorem ipsum dolor sit amet, consectetur adip",
+          "lorem ipsum dolor sit amet, consectetur adip",
+          "lorem ipsum dolor sit amet, consectetur adip",
+          "lorem ipsum dolor sit amet, consectetur adip",
+          "lorem ipsum dolor sit amet, consectetur adip",
+        ],
+      },
+    ],
+  },
+  {
+    name: "Epoxy Resins",
     description: "lorem ipsum daksldfjaksljfaujn2u33298nd",
 
     image:

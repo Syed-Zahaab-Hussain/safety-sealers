@@ -1,3 +1,11 @@
+export async function generateMetadata(): Promise<Metadata> {
+  return {
+    title: "Projects",
+    // description: introductionText,
+  };
+}
+
+import { Metadata } from "next";
 import { completedProjects } from "./projectsContent";
 const Projects = () => {
   return (
@@ -9,7 +17,7 @@ const Projects = () => {
       {/* Content */}
       <div className="p-12">
         <h2 className="text-2xl font-bold">Completed Projects</h2>
-        <div className="mt-8 grid grid-cols-2 gap-6">
+        <div className="mt-8 grid sm:grid-cols-2 grid-cols-1 gap-6">
           {completedProjects.map((item, index) => (
             <div key={index} className="ml-4">
               <h3 className="text-xl font-bold mb-4">{item.city}</h3>

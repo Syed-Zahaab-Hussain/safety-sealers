@@ -13,7 +13,6 @@ export const links = [
   },
   { label: "products", path: "/products" },
   // { label: "services", path: "/services" },
-  { label: "news & events", path: "/news-events" },
   { label: "projects", path: "/projects" },
   { label: "blog", path: "/blog" },
   { label: "contact us", path: "/contact-us" },
@@ -50,32 +49,6 @@ export const serviceArray = [
     heading: "Expansion Joints and Cracks Sealing",
     paragraph:
       " We were sole distributors and agents in Pakistan for Expandite Ltd of U.K, a renowned organization known for providing joint sealing and other associated materials, from 1964 to 1992 till such time they ceased to exist and sold themselves to Fosroc ltd. Our technical Director got 3 month extensive training in London with Expandite and we obtained formulations for some of their products namely plastic and Plastijoint, bituminous sealants for horizontal and inclined joints beside Primers and Joint filling boards etc. We were requested not to use the names of their products on moral grounds as they had included  these names in deal with Fosroc and we started manufacturing them under our own brand names of:",
-  },
-];
-
-export const differenceArray = [
-  {
-    paragraph:
-      "Pakistan’s #1 Modified Bituminous Waterproofing Membranes Brand",
-  },
-  {
-    paragraph:
-      "Roofgrip® waterproofing membranes are high quality, manufactured from bitumen, modified with selected grades of elastomers SBS ( Styrene Butadiene Styrene ) and Plastomers APP ( Atactic Polypropylene ).",
-  },
-  {
-    paragraph:
-      " Wide product range of bituminous waterproofing membranes comprises of Torch Applied, Self Adhesive Membrane and primers.",
-  },
-  {
-    paragraph:
-      " Reliable Waterproofing Solutions for Roof Waterproofing, Retaining Walls Waterproofing, Basement Waterproofing, DPC Waterproofing of Industrial, Commercial and Residential Structures.",
-  },
-  {
-    paragraph:
-      " Continuous Research and Development policy for sustainable waterproofing products and to provide effective leakage and seepage solutions",
-  },
-  {
-    paragraph: " Our mission is to make Pakistan a seepage free nation.",
   },
 ];
 
